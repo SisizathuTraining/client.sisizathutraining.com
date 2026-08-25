@@ -252,7 +252,7 @@ function detectArchitecture(files) {
   } else {
     writeLine(output,'(Skipped due to --no-content flag)\n');
   }
-
+ 
   output.end();
   console.log('\n✅ Done! Generated:',OUTPUT_FILE);
 })();

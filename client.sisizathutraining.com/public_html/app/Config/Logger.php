@@ -1,5 +1,5 @@
 <?php
-
+//sftp test  
 namespace Config;
 
 use CodeIgniter\Config\BaseConfig;
@@ -38,7 +38,7 @@ class Logger extends BaseConfig
      *
      * @var array|int
      */
-    public $threshold = 0;
+    public $threshold = 5; 
 
     /**
      * --------------------------------------------------------------------------
